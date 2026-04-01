@@ -7,7 +7,7 @@ from pathlib import Path
 class Settings(BaseSettings):
     # LLM
     groq_api_key: str = Field(..., env="GROQ_API_KEY")
-    groq_model: str = Field("llama-3.3-70b-versatile", env="GROQ_MODEL")
+    groq_model: str = Field("llama-3.1-70b-versatile", env="GROQ_MODEL")
 
     # Embeddings
     embedding_model: str = Field("all-MiniLM-L6-v2", env="EMBEDDING_MODEL")
