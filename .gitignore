@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Docker volumes / persistent data
+chroma_db/
+mlruns/
+mlflow_data/
+
+# Logs (keep structure, ignore content)
+logs/rag/*.log
+logs/cv/*.log
+!logs/.gitkeep
+
+# Temp files
+*.tmp
+*.bak
+ocr_test.json
+cv_full.log
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Model cache (large files)
+models_cache/
+*.pt
+*.onnx
+*.bin
+*.safetensors
+
+# Byte-compiled
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+
+# pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# Distribution
+*.tar.gz
+*.whl
+
+# Nested duplicate (if any)
+multimodal-ai/
